@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+
+.nunito {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px 50px 20px 50px;
+
+}
+.display-flex{
+  display: flex;
+}
+.color-1{
+  color: orange;
+}
+.color-2{
+  color: rgb(4, 160, 232);
+}
+.color-3{
+   color: aqua;
+}
+.color-4{
+  color: rgb(140, 54, 220);
+}
+.color-5{
+   color: black;
+}
+.btn-primary{
+  color: white;
+  background-color: orange;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  margin-left: 200px;
+  
+  
+  }
+  .btn-secondary{
+    color: white;
+  background-color: rgb(3, 3, 3);
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  
+  }
+  .btn-3{
+  
+    margin-left: 410px;
+    padding: 20px 25px;
+    color: white;
+    background-color: orange;
+   
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  border-radius: 50%;
+  }
+  .btn-4{
+    padding: 20px 25px;
+    color: white;
+    background-color: orange;
+    font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  border-radius: 50%;
+  }
+    
+  .navbar{
+    
+    justify-content: space-between;
+    align-items: center;
+   
+   }
+   .nav-item{
+    list-style: none;
+    margin-right: 30px;
+   }
+   .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+   }
+   .brand{  
+    font-weight: 900;
+    font-size: large;
+    margin-right:350px ;
+   }
+   .frist{
+    font-weight: 600;
+    font-size: 50px;
+  
+   }
+   .banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+   
+   }
+   .hero-kids{
+     margin-bottom: 100px;
+   }
+   .title{ 
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 450px;
+   }
+  
+    
+    .Curriculum{
+     display: grid;
+
+     grid-template-columns: repeat(3,1fr);
+
+     gap: 10px;
+      margin-top: 20px;
+      
+      }
+      .icon{
+        align-items: center;
+        width: 50%;
+      }
+  
+    .box-1{
+      border: 1px solid rgb(67, 228, 226);
+      border-radius: 10px;
+      text-align: center;
+      padding: 60px 70px 20px 70px;
+      padding-bottom: 125px;
+      margin:  20px 0px 20px 0px;
+      margin-right: 25px;
+      background:linear-gradient(rgb(204, 237, 243), rgb(250, 250, 253), rgb(250, 250, 253),
+       rgb(250, 250, 253), rgb(250, 250, 253), rgb(250, 250, 253)) ;
+     
+  
+     
+    }
+    .box-2{
+      border: 1px solid rgb(239, 204, 150);
+      border-radius: 10px;
+      text-align: center;
+      padding: 60px 70px 20px 70px;
+      padding-bottom: 125px;
+      margin:  20px 0px 20px 0px;
+      margin-right: 25px;
+      background:linear-gradient(rgb(246, 221, 188) , rgb(250, 250, 253),rgb(250, 250, 253),
+       rgb(250, 250, 253), rgb(250, 250, 253), rgb(250, 250, 253) ) ;
+     
+     
+    }
+    
+    .box-3{
+      border: 1px solid rgb(205, 139, 240);
+      border-radius: 10px;
+      text-align: center;
+      padding: 60px 70px 20px 70px; 
+      padding-bottom: 125px;
+      margin:  20px 0px 20px 0px;
+      background:linear-gradient(rgb(239, 212, 247), rgb(250, 250, 253),rgb(250, 250, 253),
+       rgb(250, 250, 253), rgb(250, 250, 253), rgb(250, 250, 253)) ;
+     
+    }
+    .display{
+      display: flex;
+      margin-top: 50px;
+      
+  
+    }
+  .read-1{
+    display: flex;
+    margin-left: 100px;
+    color: rgb(5, 218, 246);
+  }
+  .read-2{
+    display: flex;
+    margin-left: 100px;
+    color: rgb(234, 132, 29);
+  }
+  .read-3{
+    display: flex;
+    margin-left: 100px;
+    color: rgb(168, 20, 237);
+  }
+  .background-image{
+    background-image: url(bg.png);
+    
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .margin{
+    margin-right: 20px;
+    padding-bottom: 240px;
+  }
+  .discription{
+    text-align: center;
+    border: 1px solid rgb(237, 198, 97);
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+    background-color: white;
+
+  }
+  .image-1{
+    height: auto;
+    width: 450px;
+    border-radius:10px ;
+  }
+  .image-2{
+    height: auto;
+    width: 350px;
+    border-radius: 10px;
+  }
+ 
+   
+  .view-btn{
+   color: white;
+   border: none;
+   background-color: rgb(5, 5, 5) ;
+   border-radius: 8px;
+   font-size: 1.25rem;
+   font-weight: 600;
+   padding: 10px 25px;
+   margin-left: 450px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+  }
+  .view{
+   margin-left: 100px;
+  }
+  .mix-btn{ 
+   margin-top: 50px;
+   margin-left: 180px;
+  }
+  .our-story{
+   margin-left: 500px;
+   font-weight: 600;
+   font-size: 40px;
+  }
+  .btn-story1 {
+    padding: 20px 25px;
+    color: white;
+    background-color: rgb(0, 255, 234);
+    font-size: 1.25rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 30px;
+  margin-top: -250px;
+  margin-left: -200px;
+  }
+  .btn-story1 {
+    padding: 20px 25px;
+    color: white;
+    background-color: rgb(0, 255, 234);
+    font-size: 1.25rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 30px;
+  margin-top: -250px;
+  margin-left: -200px;
+  }
+  .btn-story2 {
+    padding: 20px 25px;
+    color: white;
+    background-color: rgb(187, 255, 0);
+    font-size: 1.25rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 30px;
+  margin-top: -250px;
+  margin-left: -100px;
+  }
+  .footer{
+    background-color: rgb(0, 183, 255); 
+    margin-top: 0px;
+   }
+   .section-footer{
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+   }
+   .list-item{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .list{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+   }
+   .footer-banner{
+    display: flex;
+    align-items: center;
+   }
+   .footer-area{
+    margin-left: 100px;
+    margin-right: 100px;
+   }
+   .white{
+    color: white;
+    
+   }
+   .logo-icon{
+    margin-right: 5px;
+   }
+    
+    
+    
+    
+    .features{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right:auto ;
+      
+      
+    
+    }
+    
+   .text{
+    font-weight: 600px;
+    font-size: large;
+   }
+    
+   .color-lenar{
+     background: linear-gradient(white, white ,white,white,rgb(247, 246, 244),rgb(238, 235, 231),rgba(232, 200, 158, 0.936),rgb(245, 172, 77),rgb(232, 162, 49));
+   }
+    @media screen and (max-width:576) {
+      .Curriculum{
+grid-template-columns: repeat(1,1fr);
+      }
+    }
